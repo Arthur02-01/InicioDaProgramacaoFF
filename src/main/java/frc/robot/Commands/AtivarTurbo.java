@@ -30,7 +30,7 @@ public class AtivarTurbo extends Command {
     public void initialize() { 
     // Método executado uma única vez quando o comando é iniciado
 
-        if (traction.turbo == false) { 
+        if (traction.turbo) { 
         // Verifica se o turbo está desligado
 
             traction.ativarTurbo(true); 
